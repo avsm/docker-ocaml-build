@@ -1,4 +1,4 @@
-FROM ubuntu:unicorn
+FROM ubuntu:utopic
 MAINTAINER Anil Madhavapeddy <anil@recoil.org>
 RUN apt-get -y update
 RUN apt-get -y install sudo pkg-config git build-essential m4 software-properties-common aspcud unzip curl libx11-dev
