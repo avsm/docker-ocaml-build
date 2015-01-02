@@ -2,6 +2,7 @@
 FROM ubuntu:trusty
 MAINTAINER Anil Madhavapeddy <anil@recoil.org>
 RUN apt-get -y update
+RUN apt-get -y upgrade
 RUN apt-get -y install sudo pkg-config git build-essential m4 software-properties-common unzip curl libx11-dev
 RUN apt-get -y install ocaml ocaml-native-compilers camlp4-extra
 RUN git config --global user.email "docker@example.com"
